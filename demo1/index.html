@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <!-- <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> -->
+  <style type="text/css">
+  *{
+    margin: 0;
+    padding: 0
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+    background: black;
+  }
+  .main{
+    height:100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow:row nowrap;  
+    justify-content:space-between;
+    align-items: center;
+  }
+  .item{
+    border-right:1px dashed #33eeff;
+    background: #ff4400;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+  }
+  .item1{
+    flex-grow:1;
+  }
+  .item2{
+    flex-grow:2;
+  }
+  .item3{
+    flex-grow:1;
+  }
+  </style>
+</head>
+<body>
+<div class="main">
+  <p class="item1 item">dkkkkk</p>
+  <p class="item2 item">two</p>
+  <p class="item3 item">three</p>
+</div>
+</body>
+</html>
